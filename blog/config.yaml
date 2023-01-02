@@ -11,14 +11,8 @@ languages:
         description: blog description in English
         weight: 1
 
-        params:
-            sidebar:
-                emoji: 👨🏻‍💻
-                subtitle: description for English
-                avator:
-                    enabled: true
-                    local: true
-                    src: img/avatar.png
+
+                
 
     kr:
         languageName: 한국어
@@ -26,15 +20,8 @@ languages:
         description: 블로그 설명
         weight: 2
 
-        params:
-            sidebar:
-                emoji: 👨🏻‍💻
-                subtitle: 한글 설명
-                avator:
-                    enabled: true
-                    local: true
-                    src: img/avatar.png
-
+        
+            
 params:
     mainSections:
         - post
@@ -48,6 +35,9 @@ params:
         published: Jan 02, 2006
         lastUpdated: Jan 02, 2006 15:04 EST
     
+
+
+
     widgets:
         homepage:
             - type: search
@@ -62,10 +52,11 @@ params:
                   limit: 10
         page:
             - type: toc
+            
     article:
-        math: false
+        math: true
         toc: true
-        readingTime: true
+        readingTime: false
         license:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
@@ -77,7 +68,13 @@ params:
           params:
               icon: brand-github
 
-
+    sidebar:
+        emoji: 🇨🇦
+        avator:
+            enabled: true
+            local: true
+            src: /img/memoji.png
+            
 related:
     includeNewer: true
     threshold: 60

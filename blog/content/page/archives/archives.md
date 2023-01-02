@@ -6,5 +6,5 @@ menu:
         name: Archives
         weight: 3
         params:
-            icons: archives
+            icon: archives
 ---
