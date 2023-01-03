@@ -4,7 +4,8 @@ date: 2023-01-01T21:56:59-05:00
 layout: post
 categories: Blog
 tags: ['hugo', 'blog', 'github pages']
-draft: true
+toc: true
+draft: false
 ---
 
 In the past, I didn't really consider documenting what I learned. I would always google my issues and only focused on fixing the issue. This became a problem because I would forget how to resolve the issue. This continued to happen, so I needed to document my learnings so I can go back for a reference. 
@@ -16,8 +17,15 @@ I had few features that I wanted for my blog:
 2. Multilingual feature
 3. Simple
 
+## Static Website vs Dynamic Website
+> `Static` websites are sites with stable content, whereas `dynamic` websites pull contents with user interactions. For the purpose of blogging, I didn't need features of dynamic website, so I decided to search for static website generators. 
+### Hugo
+With little bit of research, I realized that there are three main static site generating platforms: `Jekyll`, `Hexo`, and `Hugo`.
+
+Among the three, I chose Hugo because it supports multilingual feature and its build time is the fastest among all.
+
 ## Installation
-Please note that this post is based on Mac. For Windows and Linux systems, please refer to the official website.
+>Please note that this post is based on Mac. For Windows and Linux systems, please refer to the official website.
 ### Hugo and git
 You can install hugo and git through homebrew on terminal
 ```
@@ -92,4 +100,6 @@ $ git push origin master
 This will automatically change your `public` folder ready to be deployed and push all changes to the deployment repository.
 
 ## Summary
+![diagram](/img/2023/blog-build/blog-diagram.jpg)
+
 Above is a diagram of how I designed my blog. In next post, I will be making changes to `config.yaml` file for blog configurations.

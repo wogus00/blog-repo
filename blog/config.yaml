@@ -25,7 +25,6 @@ languages:
 params:
     mainSections:
         - post
-    featuredImageField: image
     rssFullContent: true
 
     footer:
