@@ -21,7 +21,7 @@ languages:
             
 params:
     mainSections:
-        - post
+        - posts
     rssFullContent: true
 
     footer:
@@ -70,7 +70,11 @@ params:
             enabled: true
             local: true
             src: /img/memoji.png
-            
+
+permalinks:
+    post: /posts/:slug/
+    page: /:slug/
+
 related:
     includeNewer: true
     threshold: 60

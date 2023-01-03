@@ -1,6 +1,6 @@
 ---
 title: "블로그 구축기 (1): Hugo + Github Pages"
-date: 2023-01-03T14:00:00-05:00
+date: 2023-01-03
 layout: post
 categories: Blog
 tags: ['hugo', 'github-pages', blog]

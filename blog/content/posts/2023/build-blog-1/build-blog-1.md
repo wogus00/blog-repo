@@ -1,6 +1,6 @@
 ---
 title: "Building Blog (1): Hugo and Github Pages"
-date: 2023-01-03T13:54:48-05:00
+date: 2023-01-03
 layout: post
 categories: Blog
 tags: ['hugo', 'github-pages', blog]
