@@ -1,6 +1,7 @@
 ---
 title: Archives
-layout: archives
+layout: 'archives'
+slug: 'archives'
 menu:
     main:
         name: Archives

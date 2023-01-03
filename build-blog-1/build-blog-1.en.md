@@ -1,35 +1,13 @@
 ---
-title: "블로그 구축기 (1): Hugo + Github Pages"
+title: "Blog Building (1): Hugo + Github Pages"
+description: Description
 date: 2023-01-03T21:56:59-05:00
-layout: post
 categories: Blog
 tags: ['hugo', 'blog', 'github pages']
-toc: true
-description: Hugo 와 Github Pages를 이용하여 블로그 구축하기
-image: blog-diagram.jpg
-license: true
+layout: post
 ---
-## 개요
-공부를 처음 시작했을때부터 문서화는 뒷전이였다. 
-## 정적 vs 동적 사이트
-### Hugo
-## 설치
-### Hugo 와 Git 설치
-### 리퍼지토리 2개 생성
-## 디렉토리 설정
-### 소스 리퍼지토리
-### Hugo 사이트 생성
-### 배포 submodule 설정
-## 테마
-### 테마 선택
-### 테마 설치
-## 컨텐츠 생성
-### 포스트 생성
-### 로컬서버에서 테스트
-## 배포
-## 정리
 
-
+## Introduction
 In the past, I didn't really consider documenting what I learned. I would always google my issues and only focused on fixing the issue. This became a problem because I would forget how to resolve the issue. This continued to happen, so I needed to document my learnings so I can go back for a reference. 
 
 Also, many other developer's blogs helped me solve some issues, so some day, I hope I can contribute to other people as well. 

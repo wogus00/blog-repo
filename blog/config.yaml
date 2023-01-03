@@ -11,10 +11,7 @@ languages:
         description: blog description in English
         weight: 1
 
-
-                
-
-    kr:
+    ko:
         languageName: 한국어
         title: Jae's Blog
         description: 블로그 설명
@@ -53,7 +50,7 @@ params:
             - type: toc
             
     article:
-        math: true
+        math: false
         toc: true
         readingTime: false
         license:

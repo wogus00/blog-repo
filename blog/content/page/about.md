@@ -1,7 +1,6 @@
 ---
 title: About
-layout: about
-URL: /about/
+layout: 'about'
 menu:
     main:
         name: About

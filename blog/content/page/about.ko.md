@@ -1,6 +1,6 @@
 ---
 title: About
-layout: about
+layout: 'about'
 menu:
     main:
         name: About
