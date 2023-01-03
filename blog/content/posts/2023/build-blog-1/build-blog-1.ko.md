@@ -4,8 +4,7 @@ date: 2023-01-03T14:00:00-05:00
 layout: post
 categories: Blog
 tags: ['hugo', 'github-pages', blog]
-draft: true
-image: blog-diagram.png`
+draft: false
 description: "Hugo와 Github Pages를 이용하여 블로그 구축하기"
 ---
 

@@ -4,7 +4,8 @@ date: 2023-01-03T13:54:48-05:00
 layout: post
 categories: Blog
 tags: ['hugo', 'github-pages', blog]
-draft: true
+draft: false
+description: "Building blog with Hugo and Github Pages"
 ---
 
 ## Introduction
