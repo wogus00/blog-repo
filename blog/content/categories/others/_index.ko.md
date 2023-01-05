@@ -1,4 +1,4 @@
 ---
-title: Personal
+title: Others
 layout: categories
 ---
