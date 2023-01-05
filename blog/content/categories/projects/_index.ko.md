@@ -1,4 +1,4 @@
 ---
-title: Personal
+title: Projects
 layout: categories
 ---
